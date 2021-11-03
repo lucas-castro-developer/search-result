@@ -490,10 +490,11 @@ The sorting options are:
 | Collection          | `"OrderByCollection"`         |
 
 - **`specificationOptions` Object:**
-| Prop name | Type    | Description    | Default value |
-| --------- | ------- | -------------- | ------------- |
-| value     | string  | Value that will be sent for ordering in the API. Must be in the format `{specification key}:{asc|desc}`. For example: `"size:desc"` or `"priceByUnit:asc"`. | `undefined` |
-| label     | string  | Label that will be displayed in the sorting options. E.g.: `"Price by unit, ascending"` | `undefined` |
+
+| Prop name  | Type      | Description                             | Default value |
+| ---------- | --------- | --------------------------------------- | ------------- |
+| value      | string | Value that will be sent for ordering in the API. Must be in the format `{specification key}:{asc|desc}`. For example: `"size:desc"` or `"priceByUnit:asc"`. | `undefined` |
+| label      | string | Label that will be displayed in the sorting options. E.g.: `"Price by unit, ascending"` | `undefined` |
 
 #### `search-fetch-more` block
 
